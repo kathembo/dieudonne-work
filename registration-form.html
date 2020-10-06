@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(0, 0, 0, 0.664);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 100px;
+  background-color:rgba(0, 255, 255, 0.281);
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 10px solid #f1f1f14b;
+  margin-bottom: 10px;
+  
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f193;
+  text-align: center;
+}
+
+</style>
+</head>
+<body>
+
+    <div class="page-header">
+        <div style="background-color: cornsilk;">
+          <h1 style="color: blue; border-left-color: red; font-size: 40px; text-align: center;">YOU ARE WELCOME TO THE CANTARE SPONSORSHIP FOR AUDIO-RECORDING</h1>
+           <hr>
+        </div>
+
+<form action="/action_page.php">
+  <div class="container">
+    <h1 style="text-align: center;color: whitesmoke;">Feel Free to Register to our sponsorship</h1>
+    <div style="color: blue; text-align: center;">
+    <b>If you want to be sponsored, please create your account Here </b>.
+
+    <!--A symbole of hand writing-->
+    
+   <span >&#9997;</span>
+   </div>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="input your Email here" name="email" id="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="input your Password here" name="psw" id="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat your Password here" name="psw-repeat" id="psw-repeat" required>
+    <hr>
+    <p style="text-align: center; color: blue;"> <b>By creating an account you agree to abide to all our</b> <a href="../html-link.htm" style="color:cornsilk">Conditions & Privacy</a></p>
+
+    <button type="submit" class="registerbtn">Register Now</button>
+  </div>  
+  <div class="container signin">
+    <p>Do you already have an account? Then <a  href="../html-link.htm" style="color:cornsilk">Sign in</a> here
+    <span >&#9997;</span>
+    </p>
+
+  </div>
+</form>
+
+</body>
+</html>
